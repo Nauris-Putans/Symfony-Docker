@@ -10,5 +10,5 @@ Mājaslapa ar backend lietām (**Apache , Php, Phpmyadmin, Mysql un Symfony 2.8*
 1. Docker Desktop
 
 -------------
- - Docker Desktop var lejupielādēt [šeit]([https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop))
+ - Docker Desktop var lejupielādēt [šeit](https://www.docker.com/products/docker-desktop)
 -------------
