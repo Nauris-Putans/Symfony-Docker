@@ -26,12 +26,12 @@ services:
       MYSQL_PASSWORD: sf2
 
   php:
-    build: .docker/php
-    container_name: sf4_php
+    build: ./php
+    container_name: sf2_php
     volumes:
-      - .:/home/wwwroot/sf4
+      - .:/home/wwwroot/sf2
     environment:
-      - maildev_host=sf4_maildev
+      - maildev_host=sf2_maildev
     depends_on:
       - maildev
       - mysql
