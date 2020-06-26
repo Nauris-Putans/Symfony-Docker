@@ -1,4 +1,9 @@
 version: '3'
+volumes: #When the container is deleted this volumes stay!
+  cache:
+  log:
+  vendor:
+
 services:
   apache:
     build: ./apache
@@ -7,6 +12,9 @@ services:
       - 80:80
     volumes:
       - ./config/vhosts:/etc/apache2/sites-enabled
+      - ./app/cache:/home/wwwroot/sf2/var/cache # Overrides cache folder
+      - ./app/logs:/home/wwwroot/sf2/app/var/log # Overrides log folder
+      - ./vendor:/home/wwwroot/sf2/vendor # Overrides vendor folder
       - .:/home/wwwroot/sf2
     depends_on:
       - php
