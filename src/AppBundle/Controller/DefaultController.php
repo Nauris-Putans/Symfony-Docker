@@ -8,6 +8,7 @@ use Symfony\Component\HttpFoundation\Request;
 
 class DefaultController extends Controller
 {
+
     /**
      * @Route("/", name="homepage")
      */
@@ -18,4 +19,18 @@ class DefaultController extends Controller
             'base_dir' => realpath($this->container->getParameter('kernel.root_dir').'/..'),
         ));
     }
+
+
+//    /**
+//     * @Route("/", name="homepage")
+//     */
+//    public function indexAction($productName)
+//    {
+//        $productData = $this->getDoctrine()
+//            ->getRepository('AppBundle:Products')
+//            ->findAll();
+//
+//        return $this->render('base/index.html.twig', array('viewProductData' => $productData));
+//    }
+
 }

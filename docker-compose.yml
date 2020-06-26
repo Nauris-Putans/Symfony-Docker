@@ -12,8 +12,8 @@ services:
       - 80:80
     volumes:
       - ./config/vhosts:/etc/apache2/sites-enabled
-      - ./app/cache:/home/wwwroot/sf2/var/cache # Overrides cache folder
-      - ./app/logs:/home/wwwroot/sf2/app/var/log # Overrides log folder
+      - ./app/cache:/home/wwwroot/sf2/app/cache # Overrides cache folder
+      - ./app/logs:/home/wwwroot/sf2/app/logs # Overrides log folder
       - ./vendor:/home/wwwroot/sf2/vendor # Overrides vendor folder
       - .:/home/wwwroot/sf2
     depends_on:
