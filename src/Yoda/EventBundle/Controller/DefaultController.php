@@ -6,6 +6,7 @@ use DateTime;
 use http\Client\Response;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 use Yoda\EventBundle\Entity\Products;
 use Yoda\EventBundle\EventBundle;
 
@@ -20,27 +21,26 @@ class DefaultController extends Controller
     }
 
     /**
-     * @return Response
+     * @Route("/product_create", name="product_add")
      */
     public function createAction()
     {
-        $product = new Products();
-        $datetime = new DateTime('2011-01-01');
 
-        $product->setProductName('Keyboard');
-        $product->setProductPrice(19.99);
-        $product->setProductDes('Ergonomic and stylish!');
-        $product->setProductRegTime($datetime);
+        $em = $this->getDoctrine()->getManager();
+        $post = new Products();
 
-        $entityManager = $this->getDoctrine()->getManager();
+        $datetime = new DateTime('2020-06-28');
 
-        // tells Doctrine you want to (eventually) save the Product (no queries yet)
-        $entityManager->persist($product);
+        $post->setProductName('Apple');
+        $post->setProductPrice(0.5);
+        $post->setProductDes('Green apple');
+        $post->setProductRegTime($datetime);
 
-        // actually executes the queries (i.e. the INSERT query)
-        $entityManager->flush();
+        $em->persist($post);
+        $em->flush();
 
-        return new Response('Saved new product with id '.$product->getId());
+
+        return $this->redirectToRoute('product_info');
     }
 
     /**
@@ -52,7 +52,54 @@ class DefaultController extends Controller
             ->getRepository('EventBundle:Products')
             ->findAll();
 
-        return $this->render('EventBundle:Default:index.html.twig', array (
-            'products_dataInfo' => $product));
+        return $this->render('EventBundle:Default:product_show.html.twig', [
+            'products_dataInfo' => $product]);
+    }
+
+    /**
+     * @Route("/product_update", name="product_update")
+     */
+    public function updateAction()
+    {
+        $em = $this->getDoctrine()->getManager();
+        $datetime = new DateTime('2020-06-27');
+
+        $post = $em->getRepository('EventBundle:Products')->find(2);
+
+        if (!$post) {
+            throw $this->createNotFoundException("thats not a record");
+        }
+
+        /** @var $post Products */
+        $post->setProductName('Bannana');
+        $post->setProductPrice(0.7);
+        $post->setProductDes('Yellow bannana');
+        $post->setProductRegTime($datetime);
+
+        $em->flush();
+
+        return $this->redirectToRoute("product_info");
+    }
+
+    /**
+     * @Route("/product_delete/{id}", name="product_delete")
+     * @param $id
+     * @return RedirectResponse
+     */
+    public function deleteAction($id)
+    {
+        $em = $this->getDoctrine()->getManager();
+
+        $post = $em->getRepository("EventBundle:Products")->find($id);
+
+        if (!$post) {
+            return $this->redirectToRoute("product_info");
+        }
+
+        $em->remove($post);
+        $em->flush();
+        
+        return $this->redirectToRoute("product_info");
+
     }
 }

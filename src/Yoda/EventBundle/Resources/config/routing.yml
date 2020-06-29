@@ -2,10 +2,18 @@ event_homepage:
     path:     /
     defaults: { _controller: EventBundle:Default:index }
 
-product:
-    path:     /product
+product_create:
+    path:     /product_create
     defaults: { _controller: EventBundle:Default:create }
 
 product_info:
     path:     /product_show
     defaults: { _controller: EventBundle:Default:show }
+
+product_update:
+    path:     /product_update
+    defaults: { _controller: EventBundle:Default:update }
+
+product_delete:
+    path:     /product_delete/{id}
+    defaults: { _controller: EventBundle:Default:delete }

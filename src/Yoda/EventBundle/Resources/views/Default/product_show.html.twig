@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+    <h1>Produkti no datubāzes</h1>
+
+    {% for key in products_dataInfo %}
+        <div>
+            {{ key.id }}
+            {{ key.productName }}
+            {{ key.productPrice }}
+            {{ key.productDes }}
+            {{ key.productRegTime|date('d-m-Y') }}
+        </div>
+    {% endfor %}
+
+{% endblock %}
