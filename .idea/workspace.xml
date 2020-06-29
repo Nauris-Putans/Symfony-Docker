@@ -11,10 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c21c9616-3017-45e4-80f2-4c447756e7b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Resources/views/base/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppBundle/Controller/BaseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#ib_16384_0.dblwr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#innodb_temp/temp_1.ibt" afterDir="false" />
@@ -27,17 +26,27 @@
       <change beforePath="$PROJECT_DIR$/data/db/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#innodb_temp/temp_7.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#innodb_temp/temp_8.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#innodb_temp/temp_9.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/binlog.000013" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/binlog.000013" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/binlog.000018" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/binlog.000018" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/binlog.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ibtmp1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/symfony/products.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/symfony/products.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/undo_001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/undo_002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/php/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/php/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/BaseController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Products.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Repository/ProductsRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Resources/views/BaseController/base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Tests/Controller/BaseControllerControllerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppBundle/Tests/Controller/DefaultControllerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app_dev.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app_dev.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/config.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,12 +54,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -106,14 +118,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nputans0\PhpstormProjects\Symfony-Docker\src" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -127,7 +144,8 @@
       <updated>1592832241831</updated>
       <workItem from="1592832243574" duration="652000" />
       <workItem from="1592832897822" duration="4724000" />
-      <workItem from="1593161085156" duration="9334000" />
+      <workItem from="1593161085156" duration="15062000" />
+      <workItem from="1593409363629" duration="16126000" />
     </task>
     <servers />
   </component>
@@ -147,25 +165,33 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="781" y="131" key="#Inspections" timestamp="1593161647055">
+    <state x="781" y="131" key="#Inspections" timestamp="1593176564630">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="781" y="131" key="#Inspections/0.0.1600.860@0.0.1600.860" timestamp="1593161647055" />
+    <state x="781" y="131" key="#Inspections/0.0.1600.860@0.0.1600.860" timestamp="1593176564630" />
     <state x="525" y="0" key="#PHP" timestamp="1593169282850">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="525" y="0" key="#PHP/0.0.1600.860@0.0.1600.860" timestamp="1593169282850" />
-    <state x="628" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593168316442">
+    <state x="628" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593409591990">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="628" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1593168316442" />
+    <state x="628" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1593409591990" />
     <state x="599" y="185" key="FileChooserDialogImpl" timestamp="1592832894698">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="599" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1592832894698" />
-    <state x="463" y="102" key="SettingsEditor" timestamp="1593162797586">
+    <state x="463" y="102" key="SettingsEditor" timestamp="1593421635661">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="102" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1593162797586" />
+    <state x="463" y="102" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1593421635661" />
+    <state x="506" y="187" width="583" height="566" key="find.popup" timestamp="1593421720628">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="506" y="187" width="583" height="566" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1593421720628" />
+    <state x="454" y="217" key="run.anything.popup" timestamp="1593420781211">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="454" y="217" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1593420781211" />
   </component>
 </project>

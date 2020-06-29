@@ -1,0 +1,11 @@
+event_homepage:
+    path:     /
+    defaults: { _controller: EventBundle:Default:index }
+
+product:
+    path:     /product
+    defaults: { _controller: EventBundle:Default:create }
+
+product_info:
+    path:     /product_show
+    defaults: { _controller: EventBundle:Default:show }
