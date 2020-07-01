@@ -11,11 +11,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c21c9616-3017-45e4-80f2-4c447756e7b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Default/product_create.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Symfony2-8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Symfony2-8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/base/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UPGRADE-2.2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UPGRADE-2.3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UPGRADE-2.4.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UPGRADE-2.8.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UPGRADE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Using" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.autoload.php.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AppCache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/base/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/SymfonyRequirements.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/cache/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/check.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing_dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/services.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/console" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/logs/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/phpunit.xml.dist" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#ib_16384_0.dblwr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#innodb_temp/temp_1.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#innodb_temp/temp_10.ibt" afterDir="false" />
@@ -27,7 +57,7 @@
       <change beforePath="$PROJECT_DIR$/data/db/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#innodb_temp/temp_7.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#innodb_temp/temp_8.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#innodb_temp/temp_9.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/binlog.000024" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/binlog.000024" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/binlog.000036" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/binlog.000036" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/binlog.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ib_logfile0" afterDir="false" />
@@ -37,12 +67,28 @@
       <change beforePath="$PROJECT_DIR$/data/db/symfony/products.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/symfony/products.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/undo_001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/undo_002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/php/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/php/php.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/routing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Default/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Default/product_show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Default/product_show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Controller/DefaultController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/DependencyInjection/Configuration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/DependencyInjection/EventExtension.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Entity/Products.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/EventBundle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Form/ProductsType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Repository/ProductsRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/routing.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/services.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Default/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Default/product_create.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Default/product_show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Tests/Controller/DefaultControllerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app_dev.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/robots.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,46 +104,6 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration">
-    <include_path>
-      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
-      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
-      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
-      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
-      <path value="$PROJECT_DIR$/vendor/twig/twig" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
-      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
-      <path value="$PROJECT_DIR$/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
-      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
-      <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
-      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
-      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php54" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php55" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
-      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
-      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
-      <path value="$PROJECT_DIR$/vendor/symfony/security-acl" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
-      <path value="$PROJECT_DIR$/vendor/ircmaxell/password-compat" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
-    </include_path>
   </component>
   <component name="ProjectId" id="1dg26cyBaPPlYZIkdYAZAnSZflc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -160,7 +166,7 @@
       <workItem from="1593441595280" duration="798000" />
       <workItem from="1593442665624" duration="4326000" />
       <workItem from="1593495243518" duration="28206000" />
-      <workItem from="1593582313760" duration="8774000" />
+      <workItem from="1593582313760" duration="11837000" />
     </task>
     <servers />
   </component>

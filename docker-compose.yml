@@ -6,16 +6,16 @@ volumes: #When the container is deleted this volumes stay!
 
 services:
   apache:
-    build: ./apache
+    build: ./apache # Builds from this location (Dockerfile)
     container_name: sf2_apache
     ports:
       - 80:80
     volumes:
       - ./config/vhosts:/etc/apache2/sites-enabled
-      - ./app/cache:/home/wwwroot/sf2/app/cache # Overrides cache folder
-      - ./app/logs:/home/wwwroot/sf2/app/logs # Overrides log folder
-      - ./vendor:/home/wwwroot/sf2/vendor # Overrides vendor folder
-      - .:/home/wwwroot/sf2
+      - ./code/app/cache:/home/wwwroot/sf2/app/cache # Overrides cache folder
+      - ./code/app/logs:/home/wwwroot/sf2/app/logs # Overrides log folder
+      - ./code/vendor:/home/wwwroot/sf2/vendor # Overrides vendor folder
+      - ./code:/home/wwwroot/sf2
     depends_on:
       - php
 
@@ -34,10 +34,10 @@ services:
       MYSQL_PASSWORD: sf2
 
   php:
-    build: ./php
+    build: ./php  # Builds from this location (Dockerfile)
     container_name: sf2_php
     volumes:
-      - .:/home/wwwroot/sf2
+      - ./code:/home/wwwroot/sf2
     environment:
       - maildev_host=sf2_maildev
     depends_on:
