@@ -2,16 +2,29 @@
 
 namespace Yoda\EventBundle\Controller;
 
-use DateTime;
-use http\Client\Response;
+use Doctrine\ORM\EntityManagerInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+
 use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\OptionsResolver\OptionsResolver;
+use Symfony\Component\OptionsResolver\OptionsResolverInterface;
+use Symfony\Component\Validator\Tests\Fixtures\EntityInterface;
 use Yoda\EventBundle\Entity\Products;
+
+use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\Form\Extension\Core\Type\DateType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Component\Form\Extension\Core\Type\NumberType;
+use Symfony\Component\Form\Extension\Core\Type\TextareaType;
+use Symfony\Component\HttpFoundation\Request;
 use Yoda\EventBundle\EventBundle;
+use Yoda\EventBundle\Form\ProductsType;
 
 class DefaultController extends Controller
 {
+
     /**
      * @Route("/", name="homepage")
      */
@@ -21,26 +34,52 @@ class DefaultController extends Controller
     }
 
     /**
+     * @param OptionsResolver $resolver
+     */
+    public function configureOptions(OptionsResolver $resolver)
+    {
+        $resolver->setDefaults(array(
+            'data_class' => 'Yoda\EventBundle\Entity\Products',
+            'allow_extra_fields' => true,
+            'csrf_protection' => false,
+        ));
+    }
+
+    /**
+     *
      * @Route("/product_create", name="product_add")
      */
-    public function createAction()
+    public function createAction(Request $request)
     {
 
-        $em = $this->getDoctrine()->getManager();
-        $post = new Products();
+        $form = $this->createForm(ProductsType::class) ; //asking symfony to build a form
 
-        $datetime = new DateTime('2020-06-28');
+        $form->handleRequest($request);
 
-        $post->setProductName('Apple');
-        $post->setProductPrice(0.5);
-        $post->setProductDes('Green apple');
-        $post->setProductRegTime($datetime);
+        if ($form->isSubmitted() && $form->isValid()){
+            $product = $form->getData();
 
-        $em->persist($post);
-        $em->flush();
+//            $name = $form['product_name']->getData();
+//            $price = $form['product_price']->getData();
+//            $description = $form['product_des']->getData();
+//            $regTime = $form['product_regTime']->getData();
+//
+//            $product->setProductName($request->request->get($name)['product_name']);
+//            $product->setProductPrice($request->request->get($price)['product_price']);
+//            $product->setProductName($request->request->get($description)['product_des']);;
+//            $product->setProductName($request->request->get($regTime)['product_regTime']);
 
+             $em = $this->getDoctrine()->getManager();
+             $em->persist($product);
+             $em->flush();
 
-        return $this->redirectToRoute('product_info');
+            return $this->redirectToRoute('product_info');
+        }
+
+        return $this->render('EventBundle:Default:product_create.html.twig', array( //data that goes to product create form
+            'form' => $form->createView(),  //passing data in instance "form"
+        ));
+
     }
 
     /**
@@ -55,51 +94,5 @@ class DefaultController extends Controller
         return $this->render('EventBundle:Default:product_show.html.twig', [
             'products_dataInfo' => $product]);
     }
-
-    /**
-     * @Route("/product_update", name="product_update")
-     */
-    public function updateAction()
-    {
-        $em = $this->getDoctrine()->getManager();
-        $datetime = new DateTime('2020-06-27');
-
-        $post = $em->getRepository('EventBundle:Products')->find(2);
-
-        if (!$post) {
-            throw $this->createNotFoundException("thats not a record");
-        }
-
-        /** @var $post Products */
-        $post->setProductName('Bannana');
-        $post->setProductPrice(0.7);
-        $post->setProductDes('Yellow bannana');
-        $post->setProductRegTime($datetime);
-
-        $em->flush();
-
-        return $this->redirectToRoute("product_info");
-    }
-
-    /**
-     * @Route("/product_delete/{id}", name="product_delete")
-     * @param $id
-     * @return RedirectResponse
-     */
-    public function deleteAction($id)
-    {
-        $em = $this->getDoctrine()->getManager();
-
-        $post = $em->getRepository("EventBundle:Products")->find($id);
-
-        if (!$post) {
-            return $this->redirectToRoute("product_info");
-        }
-
-        $em->remove($post);
-        $em->flush();
-        
-        return $this->redirectToRoute("product_info");
-
-    }
 }
+

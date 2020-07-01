@@ -1,15 +1,18 @@
 {% extends 'base.html.twig' %}
 {% block body %}
 
-    <h1>Produkti no datubāzes</h1>
+    <br><h1>Produkti no datubāzes</h1><br>
+
+    <a class="button center" href="{{ path('event_homepage') }}">Atpakaļ</a>
+    <a class="button center" href="{{ path('product_create') }}">Pievienot produktu</a><br><br>
 
     {% for key in products_dataInfo %}
         <div>
-            {{ key.id }}
-            {{ key.productName }}
-            {{ key.productPrice }}
-            {{ key.productDes }}
-            {{ key.productRegTime|date('d-m-Y') }}
+            ID - <strong>{{ key.id }}</strong> |
+            Product name - <strong>{{ key.productName }}</strong> |
+            Product price - <strong>{{ key.productPrice }}</strong> |
+            Product description - <strong>{{ key.productDes }}</strong> |
+            Product registration time - <strong>{{ key.productRegTime|date('d-m-Y') }}</strong>
         </div>
     {% endfor %}
 

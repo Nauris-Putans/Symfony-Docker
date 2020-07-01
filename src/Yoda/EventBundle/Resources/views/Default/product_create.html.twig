@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+    <br><h1>Pievienot produktu</h1><br>
+
+    <a class="button center" href="{{ path('event_homepage') }}">Atpakaļ</a>
+    <a class="button center" href="{{ path('product_info') }}">Datubāze ar produktiem</a><br><br>
+
+    {{ form_start(form, {'attr': {'novalidate': 'novalidate'}}) }}
+    {{ form_widget(form) }}
+    <button type="submit" class="btn btn-primary">Save</button>
+    {{ form_end(form) }}
+
+{% endblock %}

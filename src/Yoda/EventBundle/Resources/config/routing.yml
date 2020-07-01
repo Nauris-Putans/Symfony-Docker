@@ -10,10 +10,4 @@ product_info:
     path:     /product_show
     defaults: { _controller: EventBundle:Default:show }
 
-product_update:
-    path:     /product_update
-    defaults: { _controller: EventBundle:Default:update }
 
-product_delete:
-    path:     /product_delete/{id}
-    defaults: { _controller: EventBundle:Default:delete }

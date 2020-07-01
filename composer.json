@@ -17,7 +17,10 @@
         "sensio/distribution-bundle": "~5.0",
         "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
-      "ext-http": "*"
+      "ext-http": "*",
+      "ext-mysql": "*",
+        "ext-mysqli": "*",
+        "ext-pdo": "*"
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0",

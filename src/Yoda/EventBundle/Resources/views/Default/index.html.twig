@@ -1,6 +1,9 @@
 {% extends 'base.html.twig' %}
 {% block body %}
 
-    <h1>Hello world!</h1>
+    <br><h1>Produktu darbnīca</h1><br>
+
+    <a class="button center" href="{{ path('product_info') }}">Datubāze ar produktiem</a>
+    <a class="button center" href="{{ path('product_create') }}">Pievienot produktu</a>
 
 {% endblock %}
