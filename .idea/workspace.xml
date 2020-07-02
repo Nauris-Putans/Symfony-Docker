@@ -11,41 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c21c9616-3017-45e4-80f2-4c447756e7b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Symfony2-8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Symfony2-8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/nputans0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/nputans0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UPGRADE-2.2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UPGRADE-2.3.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UPGRADE-2.4.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UPGRADE-2.8.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UPGRADE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Using" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.autoload.php.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/AppCache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/base/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/SymfonyRequirements.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/autoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cache/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/check.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config_dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config_prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config_test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/routing_dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/security.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/services.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/console" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/logs/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Using" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/app/config/parameters.yml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/config/parameters.yml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/vhosts/sf2.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/vhosts/sf2.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#ib_16384_0.dblwr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#innodb_temp/temp_1.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#innodb_temp/temp_10.ibt" afterDir="false" />
@@ -57,8 +31,7 @@
       <change beforePath="$PROJECT_DIR$/data/db/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#innodb_temp/temp_7.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#innodb_temp/temp_8.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#innodb_temp/temp_9.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/binlog.000036" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/binlog.000036" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/binlog.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/binlog.000038" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/binlog.000038" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ibdata1" afterDir="false" />
@@ -68,27 +41,7 @@
       <change beforePath="$PROJECT_DIR$/data/db/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/undo_001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/undo_002" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Controller/DefaultController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/DependencyInjection/Configuration.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/DependencyInjection/EventExtension.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Entity/Products.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/EventBundle.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Form/ProductsType.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Repository/ProductsRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/routing.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/config/services.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Default/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Default/product_create.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Resources/views/Default/product_show.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Yoda/EventBundle/Tests/Controller/DefaultControllerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app_dev.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/php/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +119,8 @@
       <workItem from="1593441595280" duration="798000" />
       <workItem from="1593442665624" duration="4326000" />
       <workItem from="1593495243518" duration="28206000" />
-      <workItem from="1593582313760" duration="11837000" />
+      <workItem from="1593582313760" duration="12745000" />
+      <workItem from="1593672031057" duration="1176000" />
     </task>
     <servers />
   </component>
@@ -218,10 +172,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="504" y="0" key="#php/Dockerfile/0.0.1600.860@0.0.1600.860" timestamp="1593519755851" />
-    <state x="599" y="185" key="FileChooserDialogImpl" timestamp="1592832894698">
+    <state x="599" y="185" key="FileChooserDialogImpl" timestamp="1593602943793">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="599" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1592832894698" />
+    <state x="599" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1593602943793" />
     <state x="484" y="137" key="NewPhpClassDialog" timestamp="1593523353733">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
