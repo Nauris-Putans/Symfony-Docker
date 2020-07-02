@@ -1,29 +1,52 @@
 # Symfony 2.8 🎶 + Docker 🐋
+> Server with **Apache, Php, Maildev, Phpmyadmin, Mysql and Symfony 2.8**
 
-Mājaslapa ar backend lietām (**Apache , Php, Phpmyadmin, Mysql un Symfony 2.8**) + **Docker**
+## Table of Contents
 
+ - [Docker container images](#docker-container-images)
+ - [Requirements](#requirements)
+ - [Installation](#installation)
+ 
+## Docker container images
+ - Apache (**debian:stretch**)
+ - Php (**7.0.33**)
+ - Maildev (**latest:1.1.0**)
+ - Phpmyadmin (**5.0.2**)
+ - Mysql (**8.0.20-1debian10**)
+ - Symfony (**2.8**)
+ - Docker (**v19.03.8**)
 
-## Uzstadīšana  🔧
+## Requirements
 
-> Lai uzstādītu šo majaslapu, ir vajadzīgs:
+> To install this Docker container, you must have:
 
-1. Docker Desktop
+1. Docker Desktop (More information [here](https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install))
 2. Git Bash
 
 -------------
- - Docker Desktop var lejupielādēt [šeit](https://www.docker.com/products/docker-desktop)
- - Git Bash var lejupielādēt [šeit](https://git-scm.com/downloads)
+ - Docker Desktop can be downloaded [here](https://www.docker.com/products/docker-desktop)
+ - Git Bash can be downloaded [here](https://git-scm.com/downloads)
 -------------
 
-### Kad viss ir lejupielādēts
+## Installation
+
+### Clone
+
+- Clone this repo to your local machine using `https://github.com/Nauris-Putans/Symfony-Docker.git`
 
 ```bash
 git clone https://github.com/Nauris-Putans/Symfony-Docker.git
 ```
 
+- After cloning you can go to the folder
+
 ```bash
 cd Symfony-Docker/code
 ```
+
+### Setup
+
+
 
 ```bash
 docker-compose build
@@ -41,13 +64,15 @@ winpty docker exec -it sf2_php bash
 composer install
 ```
 
-- Ja sanak problemas lejupieladejot composer
+---
+- If there is a problem downloading composer use this command
 
 ```bash
 composer dump-autoload
 ```
+---
 
-Kad prasīs pēc parametriem, vienkarši speižat enter (jau ir izveidots parameter template)
+When prompted by parameter entering, simply press "Enter" button (already created in parameter template)
 ```bash
 Creating the "app/config/parameters.yml" file
 Some parameters are missing. Please provide them.
@@ -64,7 +89,12 @@ mailer_password (null):
 secret (ThisTokenIsNotSoSecretChangeIt):
 ```
 
-Uz ekrāna japaradās kautkas lidzigam šim.
+On screen should apper this text 
 ```diff 
 + [OK] All assets were successfully installed.
 ```
+
+You can now enter "localhost" in browser and vola 👍
+
+### Everything should be done and ready to work! ✅
+If you have any questions about this Docker container installation instructions, feel free to write to - **nauris-putans@Inbox.lv** 
