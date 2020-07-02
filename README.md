@@ -1,5 +1,4 @@
 # Symfony 2.8 🎶 + Docker 🐋
-[![N|Solid](https://cdn.iconscout.com/icon/free/png-256/symfony-4-1174989.png)](https://symfony.com/)[![N|Solid](https://tutorials.kevashcraft.com/img/common/docker-logo.png)](https://www.docker.com/) 
 
 Server with **Apache, Php, Maildev, Phpmyadmin, Mysql and Symfony 2.8**
 
