@@ -9,7 +9,7 @@
     },
     "require": {
         "php": ">=5.5",
-        "symfony/symfony": "2.8.*",
+        "symfony/symfony": "2.8.0",
         "doctrine/orm": "^2.4.8",
         "doctrine/doctrine-bundle": "~1.4",
         "symfony/swiftmailer-bundle": "~2.3",
@@ -17,10 +17,13 @@
         "sensio/distribution-bundle": "~5.0",
         "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
-      "ext-http": "*",
-      "ext-mysql": "*",
-        "ext-mysqli": "*",
-        "ext-pdo": "*"
+        "ext-pdo": "*",
+        "sonata-project/admin-bundle": "^3.20",
+        "sonata-project/doctrine-orm-admin-bundle": "^3.1",
+        "sonata-project/google-authenticator": "2.0.0",
+        "sonata-project/media-bundle": "^3.5",
+        "sonata-project/user-bundle": "3.2.4",
+        "twig/twig": "^1.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0",
