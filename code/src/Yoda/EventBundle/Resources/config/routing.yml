@@ -1,13 +1,13 @@
 event_homepage:
-    path:     /
+    path:     /product
     defaults: { _controller: EventBundle:Default:index }
 
 product_create:
-    path:     /product_create
+    path:     /product/create
     defaults: { _controller: EventBundle:Default:create }
 
 product_info:
-    path:     /product_show
+    path:     /product/show
     defaults: { _controller: EventBundle:Default:show }
 
 

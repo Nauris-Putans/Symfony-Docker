@@ -51,7 +51,7 @@ class DefaultController extends Controller
      */
     public function createAction(Request $request)
     {
-
+        $product = new Products();
         $form = $this->createForm(ProductsType::class) ; //asking symfony to build a form
 
         $form->handleRequest($request);

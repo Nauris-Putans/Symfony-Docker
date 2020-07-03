@@ -1,9 +1,9 @@
-{% extends 'base.html.twig' %}
+{% extends '@Event/Default/base.html.twig' %}
 {% block body %}
 
-    <br><h1>Produktu darbnīca</h1><br>
+    <br><h1>Product workshop</h1><br>
 
-    <a class="button center" href="{{ path('product_info') }}">Datubāze ar produktiem</a>
-    <a class="button center" href="{{ path('product_create') }}">Pievienot produktu</a>
+    <a class="button center" href="{{ path('product_info') }}">Database with products</a>
+    <a class="button center" href="{{ path('product_create') }}">Add product</a>
 
 {% endblock %}

@@ -1,10 +1,10 @@
-{% extends 'base.html.twig' %}
+{% extends '@Event/Default/base.html.twig' %}
 {% block body %}
 
-    <br><h1>Produkti no datubāzes</h1><br>
+    <br><h1>Products from database</h1><br>
 
-    <a class="button center" href="{{ path('event_homepage') }}">Atpakaļ</a>
-    <a class="button center" href="{{ path('product_create') }}">Pievienot produktu</a><br><br>
+    <a class="button center" href="{{ path('event_homepage') }}">Back</a>
+    <a class="button center" href="{{ path('product_create') }}">Add product</a><br><br>
 
     {% for key in products_dataInfo %}
         <div>
