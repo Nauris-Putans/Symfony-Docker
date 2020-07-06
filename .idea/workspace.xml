@@ -11,22 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c21c9616-3017-45e4-80f2-4c447756e7b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/nputans0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/nputans0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Entity/Products.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Form/ProductsType.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Form/ProductsType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Repository/ProductsRepository.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/config/routing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default/product_create.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default/product_create.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default/product_show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default/product_show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#ib_16384_0.dblwr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/ON.index" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ON.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ib_buffer_pool" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/mysql.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/undo_001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/undo_002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/symfony/products.ibd" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +105,7 @@
       <workItem from="1593780809453" duration="32000" />
       <workItem from="1593781525076" duration="25000" />
       <workItem from="1593799405822" duration="3351000" />
+      <workItem from="1594018154616" duration="1076000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,5 @@
 event_homepage:
-    path:     /product
+    path:     /
     defaults: { _controller: EventBundle:Default:index }
 
 product_create:

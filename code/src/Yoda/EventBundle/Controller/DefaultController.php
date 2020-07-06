@@ -2,24 +2,16 @@
 
 namespace Yoda\EventBundle\Controller;
 
-use Doctrine\ORM\EntityManagerInterface;
+
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-use Symfony\Component\HttpFoundation\RedirectResponse;
-use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\OptionsResolver\OptionsResolver;
-use Symfony\Component\OptionsResolver\OptionsResolverInterface;
-use Symfony\Component\Validator\Tests\Fixtures\EntityInterface;
-use Yoda\EventBundle\Entity\Products;
 
-use Symfony\Component\Form\Extension\Core\Type\TextType;
-use Symfony\Component\Form\Extension\Core\Type\DateType;
-use Symfony\Component\Form\Extension\Core\Type\SubmitType;
-use Symfony\Component\Form\Extension\Core\Type\NumberType;
-use Symfony\Component\Form\Extension\Core\Type\TextareaType;
+use Symfony\Component\OptionsResolver\OptionsResolver;
+use Symfony\Component\Validator\Tests\Fixtures\EntityInterface;
+use Yoda\EventBundle\Entity\ItemsAdd;
+
 use Symfony\Component\HttpFoundation\Request;
-use Yoda\EventBundle\EventBundle;
 use Yoda\EventBundle\Form\ProductsType;
 
 class DefaultController extends Controller
@@ -39,7 +31,7 @@ class DefaultController extends Controller
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'Yoda\EventBundle\Entity\Products',
+            'data_class' => 'Yoda\EventBundle\Entity\ItemsAdd',
             'allow_extra_fields' => true,
             'csrf_protection' => false,
         ));
@@ -51,7 +43,7 @@ class DefaultController extends Controller
      */
     public function createAction(Request $request)
     {
-        $product = new Products();
+        $product = new ItemsAdd();
         $form = $this->createForm(ProductsType::class) ; //asking symfony to build a form
 
         $form->handleRequest($request);
@@ -88,7 +80,7 @@ class DefaultController extends Controller
     public function showAction()
     {
         $product = $this->getDoctrine()
-            ->getRepository('EventBundle:Products')
+            ->getRepository('EventBundle:ItemsAdd')
             ->findAll();
 
         return $this->render('EventBundle:Default:product_show.html.twig', [
