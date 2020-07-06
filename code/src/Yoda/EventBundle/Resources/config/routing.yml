@@ -10,4 +10,9 @@ product_info:
     path:     /product/show
     defaults: { _controller: EventBundle:Default:show }
 
+_sonata_admin:
+    resource: .
+    type: sonata_admin
+    prefix: /admin
+
 
