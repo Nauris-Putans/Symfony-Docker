@@ -11,13 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c21c9616-3017-45e4-80f2-4c447756e7b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Admin/BlogPostAdmin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/app/config/admin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/config/admin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Admin/CategoryAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Admin/CategoryAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Entity/BlogPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Entity/BlogPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Admin/BlogPostAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Admin/BlogPostAdmin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/ON.index" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ON.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/symfony/blog_post.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/symfony/blog_post.ibd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +100,7 @@
       <workItem from="1593780809453" duration="32000" />
       <workItem from="1593781525076" duration="25000" />
       <workItem from="1593799405822" duration="3351000" />
-      <workItem from="1594018154616" duration="9610000" />
+      <workItem from="1594018154616" duration="11887000" />
     </task>
     <servers />
   </component>
