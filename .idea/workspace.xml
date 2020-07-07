@@ -11,9 +11,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c21c9616-3017-45e4-80f2-4c447756e7b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/nputans0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/nputans0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Admin/BlogPostAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Admin/BlogPostAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/AppKernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/app/SymfonyRequirements.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/SymfonyRequirements.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/app/check.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/config/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/app/config/routing_dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/config/routing_dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/web/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/web/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#ib_16384_0.dblwr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/ON.index" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ON.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/undo_001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/db/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/undo_002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/php/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/php/php.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +117,8 @@
       <workItem from="1593780809453" duration="32000" />
       <workItem from="1593781525076" duration="25000" />
       <workItem from="1593799405822" duration="3351000" />
-      <workItem from="1594018154616" duration="11887000" />
+      <workItem from="1594018154616" duration="20507000" />
+      <workItem from="1594102174893" duration="474000" />
     </task>
     <servers />
   </component>
@@ -156,10 +174,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="599" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1593781547394" />
-    <state x="484" y="137" key="NewPhpClassDialog" timestamp="1593523353733">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="581" y="166" key="NewPhpClassDialog" timestamp="1594041954345">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="484" y="137" key="NewPhpClassDialog/0.0.1600.860@0.0.1600.860" timestamp="1593523353733" />
+    <state x="581" y="166" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594041954345" />
     <state x="463" y="102" key="SettingsEditor" timestamp="1593421635661">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -168,10 +187,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="506" y="187" width="583" height="566" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1593518929452" />
-    <state x="454" y="217" key="run.anything.popup" timestamp="1593584782947">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="545" y="262" key="run.anything.popup" timestamp="1594102300647">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="454" y="217" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1593584782947" />
+    <state x="545" y="262" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594102300647" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1593523374190">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

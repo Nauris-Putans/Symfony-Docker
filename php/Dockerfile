@@ -1,10 +1,10 @@
 FROM php:7.0-fpm
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends vim curl debconf subversion git apt-transport-https apt-utils \
+    && apt-get install -y --no-install-recommends vim libpng-dev curl debconf subversion git apt-transport-https apt-utils \
     build-essential locales acl mailutils wget zip unzip \
     gnupg gnupg1 gnupg2
-RUN docker-php-ext-install pdo pdo_mysql
+RUN docker-php-ext-install pdo pdo_mysql gd
 COPY php.ini /etc/php/7.0/php.ini
 COPY php-fpm-pool.conf /etc/php/7.0/pool.d/www.conf
 
