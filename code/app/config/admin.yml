@@ -10,3 +10,4 @@ services:
     arguments: [~, Yoda\EventBundle\Entity\BlogPost, ~]
     tags:
       - { name: sonata.admin, manager_type: orm, label: Blog post }
+

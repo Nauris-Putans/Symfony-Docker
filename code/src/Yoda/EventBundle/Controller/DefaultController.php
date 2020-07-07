@@ -48,7 +48,7 @@ class DefaultController extends Controller
 
         $form->handleRequest($request);
 
-        if ($form->isSubmitted() && $form->isValid()){
+        if ($form->isSubmitted() && $form->isValid()){ //checks if form is submitted and valid
             $product = $form->getData();
 
 //            $name = $form['product_name']->getData();
@@ -65,7 +65,7 @@ class DefaultController extends Controller
              $em->persist($product);
              $em->flush();
 
-            return $this->redirectToRoute('product_info');
+            return $this->redirectToRoute('product_info');  //redirects to '/product_show'
         }
 
         return $this->render('EventBundle:Default:product_create.html.twig', array( //data that goes to product create form

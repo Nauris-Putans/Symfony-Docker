@@ -3,6 +3,7 @@ volumes: #When the container is deleted this volumes stay!
   cache:
   log:
   vendor:
+  media:
 
 services:
   apache:
@@ -16,6 +17,7 @@ services:
       - ./code/app/logs:/home/wwwroot/sf2/code/app/logs # Overrides log folder
       - ./code/vendor:/home/wwwroot/sf2/code/vendor # Overrides vendor folder
       - ./code:/home/wwwroot/sf2/code
+      - ./code/web/uploads/media:/home/wwwroot/sf2/code/web/uploads/media
     depends_on:
       - php
 

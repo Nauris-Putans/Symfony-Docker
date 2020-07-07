@@ -4,6 +4,10 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends vim libpng-dev curl debconf subversion git apt-transport-https apt-utils \
     build-essential locales acl mailutils wget zip unzip \
     gnupg gnupg1 gnupg2
+
+RUN docker-php-ext-configure gd --with-gd=shared \
+     --with-png-dir=/usr/lib/x86_64-linux-gnu/
+
 RUN docker-php-ext-install pdo pdo_mysql gd
 COPY php.ini /etc/php/7.0/php.ini
 COPY php-fpm-pool.conf /etc/php/7.0/pool.d/www.conf

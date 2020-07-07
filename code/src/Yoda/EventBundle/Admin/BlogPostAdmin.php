@@ -9,6 +9,7 @@ use Yoda\EventBundle\Entity\Category;
 use Sonata\AdminBundle\Admin\AbstractAdmin;
 use Sonata\AdminBundle\Datagrid\ListMapper;
 use Sonata\AdminBundle\Form\FormMapper;
+use Sonata\AdminBundle\Controller\CRUDController;
 
 final class BlogPostAdmin extends AbstractAdmin
 {

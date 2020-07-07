@@ -1,6 +1,5 @@
 <?php
 
-use Application\Sonata\MediaBundle\ApplicationSonataMediaBundle;
 use Symfony\Component\HttpKernel\Kernel;
 use Symfony\Component\Config\Loader\LoaderInterface;
 
@@ -24,8 +23,7 @@ class AppKernel extends Kernel
             new Sonata\MediaBundle\SonataMediaBundle(),
             new Sonata\AdminBundle\SonataAdminBundle(),
             new Sonata\EasyExtendsBundle\SonataEasyExtendsBundle(),
-            new JMS\SerializerBundle\JMSSerializerBundle(),
-            new ApplicationSonataMediaBundle()
+            new Application\Sonata\MediaBundle\ApplicationSonataMediaBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
