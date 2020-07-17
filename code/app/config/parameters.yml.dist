@@ -18,3 +18,10 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+    s3_bucket_name: media
+    s3_access_key: accessKey1
+    s3_secret_key: verySecretKey1
+    s3_region: "us-east-1"
+    s3_version: "2006-03-01"
+    s3_sdk_version: 3

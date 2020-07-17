@@ -4,6 +4,8 @@ volumes: #When the container is deleted this volumes stay!
   log:
   vendor:
   media:
+#  s3data:
+#  s3metadata:
 
 services:
   apache:
@@ -65,3 +67,25 @@ services:
     container_name: sf2_maildev
     ports:
       - 8001:80
+
+  s3server:
+    image: scality/s3server
+    container_name: sf2_s3server
+    restart: always
+    ports:
+      - 8000:8000
+    volumes:
+      - ./data/s3data:/usr/src/app/localData
+      - ./data/s3metadata:/usr/src/app/localMetadata
+      - ./config.json:/usr/src/app/config.json
+      - ./locationConfig.json:/usr/src/app/locationConfig.json
+#      - ./authdata.json:/usr/src/app/conf/authdata.json
+      - ~/.aws/credentials:/root/.aws/credentials
+      - ~/.aws/config:/root/.aws/config
+
+    environment:
+      - S3BACKEND=file
+      - ACCESS_KEY_ID=accessKey1
+      - SECRET_ACCESS_KEY=verySecretKey1
+      - REMOTE_MANAGEMENT_DISABLE=1
+      - SSL=false

@@ -11,17 +11,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c21c9616-3017-45e4-80f2-4c447756e7b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/Application/Sonata/MediaBundle/Admin/MediaAdmin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authdata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locationConfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/nputans0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/nputans0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/AppKernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/app/config/admin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/config/admin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/app/SymfonyRequirements.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/SymfonyRequirements.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/app/check.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/check.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/config/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/app/config/routing_dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/config/routing_dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Admin/BlogPostAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Admin/BlogPostAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Admin/CategoryAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Admin/CategoryAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/app/config/parameters.yml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/config/parameters.yml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/app/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/code/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/code/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/web/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/web/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#ib_16384_0.dblwr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/ON.index" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ON.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ib_buffer_pool" afterDir="false" />
@@ -32,7 +38,6 @@
       <change beforePath="$PROJECT_DIR$/data/db/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/undo_001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/undo_002" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/php/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,19 +68,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/views/Default" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/code/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nputans0\PhpstormProjects\Symfony-Docker\code\src" />
       <recent name="C:\Users\nputans0\PhpstormProjects\Symfony-Docker#\code\src\Yoda\EventBundle\Resources\views\Default" />
       <recent name="C:\Users\nputans0\PhpstormProjects\Symfony-Docker\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nputans0\PhpstormProjects\Symfony-Docker" />
+      <recent name="C:\Users\nputans0\PhpstormProjects\Symfony-Docker\code\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -121,6 +133,14 @@
       <workItem from="1593799405822" duration="3351000" />
       <workItem from="1594018154616" duration="20507000" />
       <workItem from="1594102174893" duration="12782000" />
+      <workItem from="1594384962436" duration="2831000" />
+      <workItem from="1594618856352" duration="3763000" />
+      <workItem from="1594624682430" duration="17773000" />
+      <workItem from="1594706015289" duration="26090000" />
+      <workItem from="1594792179010" duration="17640000" />
+      <workItem from="1594878818094" duration="42000" />
+      <workItem from="1594878903118" duration="21100000" />
+      <workItem from="1594964756129" duration="20312000" />
     </task>
     <servers />
   </component>
@@ -156,11 +176,15 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1593444540238" />
-    <state x="754" y="287" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594109064418">
+    <state x="754" y="287" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594904900601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="628" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1593517545304" />
-    <state x="754" y="287" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594109064418" />
+    <state x="754" y="287" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594904900601" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1594878849003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594878849003" />
     <state x="530" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593431603246">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -173,10 +197,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="504" y="0" key="#php/Dockerfile/0.0.1600.860@0.0.1600.860" timestamp="1593519755851" />
-    <state x="599" y="185" key="FileChooserDialogImpl" timestamp="1593781547395">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="719" y="224" key="FileChooserDialogImpl" timestamp="1594384989446">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="599" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1593781547394" />
+    <state x="719" y="224" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594384989446" />
     <state x="581" y="166" key="NewPhpClassDialog" timestamp="1594041954345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -186,10 +211,15 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="463" y="102" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1593421635661" />
-    <state x="506" y="187" width="583" height="566" key="find.popup" timestamp="1593518929452">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="603" y="229" width="838" height="685" key="find.popup" timestamp="1594976301398">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="506" y="187" width="583" height="566" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1593518929452" />
+    <state x="603" y="229" width="838" height="685" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594976301398" />
+    <state x="785" y="273" key="refactoring.ChangeSignatureDialog" timestamp="1594731239643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="785" y="273" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594731239643" />
     <state x="545" y="262" key="run.anything.popup" timestamp="1594102300647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

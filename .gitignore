@@ -11,3 +11,4 @@ code/vendor/
 code/bin/
 code/composer.phar
 code/.idea/
+node_modules/

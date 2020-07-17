@@ -2,9 +2,12 @@
   <dictionary name="nputans0">
     <words>
       <w>aizgaja</w>
+      <w>amazonaws</w>
       <w>apmācība</w>
       <w>apraksts</w>
       <w>atpakaļ</w>
+      <w>authdata</w>
+      <w>awsbackend</w>
       <w>cena</w>
       <w>csrf</w>
       <w>darbnīca</w>
@@ -13,6 +16,7 @@
       <w>datubāzes</w>
       <w>dbal</w>
       <w>dzēst</w>
+      <w>examplebucket</w>
       <w>incenteev</w>
       <w>laiks</w>
       <w>littlesync</w>
@@ -21,6 +25,7 @@
       <w>pathinfo</w>
       <w>phpcr</w>
       <w>pievienot</w>
+      <w>presigned</w>
       <w>producta</w>
       <w>produkta</w>
       <w>produkti</w>
@@ -30,6 +35,7 @@
       <w>reģistrēšanas</w>
       <w>sdss</w>
       <w>sensio</w>
+      <w>ssec</w>
       <w>swiftmailer</w>
     </words>
   </dictionary>
