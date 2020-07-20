@@ -135,5 +135,19 @@ then go to "Symfony-Docker\code\vendor\sonata-project\admin-bundle\Resources\con
 26                 </service>
 ```
 
+---
+
+If on screen apears bug like this
+```diff
+Fatal error: Call to undefined method Sonata\AdminBundle\Controller\CRUDController::renderWithExtraParams()
+
+52         $parameters['media_pool'] = $this->get('sonata.media.pool');
+53         $parameters['persistent_parameters'] = $this->admin->getPersistentParameters();
+
+55         return parent::renderWithExtraParams($view, $parameters, $response);
+```
+
+then change "renderWithExtraParams" to "render"
+
 ### Everything should be done and ready to work! ✅
 If you have any questions about this Docker container installation instructions, feel free to write to - **nauris-putans@Inbox.lv** 
