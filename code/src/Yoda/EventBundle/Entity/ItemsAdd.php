@@ -157,4 +157,3 @@ class ItemsAdd
         return $this->productRegTime;
     }
 }
-

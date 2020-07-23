@@ -78,5 +78,28 @@ class Category
     {
         return $this->name;
     }
-}
 
+    /**
+     * Add blogPost
+     *
+     * @param \Yoda\EventBundle\Entity\BlogPost $blogPost
+     *
+     * @return Category
+     */
+    public function addBlogPost(\Yoda\EventBundle\Entity\BlogPost $blogPost)
+    {
+        $this->blogPosts[] = $blogPost;
+
+        return $this;
+    }
+
+    /**
+     * Remove blogPost
+     *
+     * @param \Yoda\EventBundle\Entity\BlogPost $blogPost
+     */
+    public function removeBlogPost(\Yoda\EventBundle\Entity\BlogPost $blogPost)
+    {
+        $this->blogPosts->removeElement($blogPost);
+    }
+}

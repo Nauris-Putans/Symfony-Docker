@@ -8,6 +8,7 @@
       <w>atpakaļ</w>
       <w>authdata</w>
       <w>awsbackend</w>
+      <w>basepath</w>
       <w>cena</w>
       <w>csrf</w>
       <w>darbnīca</w>
@@ -16,7 +17,10 @@
       <w>datubāzes</w>
       <w>dbal</w>
       <w>dzēst</w>
+      <w>eventbundle</w>
       <w>examplebucket</w>
+      <w>gaufrette</w>
+      <w>imagepost</w>
       <w>incenteev</w>
       <w>laiks</w>
       <w>littlesync</w>

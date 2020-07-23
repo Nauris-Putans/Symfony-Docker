@@ -1,0 +1,22 @@
+Yoda\EventBundle\Entity\Image:
+  type: entity
+  repositoryClass: Yoda\EventBundle\Entity\Repositories\ImageRepository
+  table: images
+  id:
+    id:
+      type:      integer
+      generator: { strategy: AUTO }
+  fields:
+    filename:
+      type:      string
+      length:    255
+
+    # changed when files are uploaded, to force preUpdate and postUpdate to fire
+    updated:
+      type:      datetime
+      nullable:  true
+
+    # ...
+  lifecycleCallbacks:
+    prePersist: [lifecycleFileUpload]
+    preUpdate:  [lifecycleFileUpload]

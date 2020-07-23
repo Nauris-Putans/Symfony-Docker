@@ -58,6 +58,7 @@ doctrine:
         naming_strategy: doctrine.orm.naming_strategy.underscore
         auto_mapping: true
 
+# KNP gaufrette Configuration
 knp_gaufrette:
     adapters:
         photos:
@@ -68,9 +69,6 @@ knp_gaufrette:
                 options:
                     directory: 'photos'
                     create:     false
-        foo:
-            local:
-                directory: './uploads/media'
 
     stream_wrapper: ~
 
@@ -87,6 +85,7 @@ swiftmailer:
     password:  "%mailer_password%"
     spool:     { type: memory }
 
+# Symfony Configuration
 sonata_block:
     default_contexts: [cms]
     blocks:
@@ -116,14 +115,14 @@ sonata_media:
                 big:   { width: 500 , quality: 70  }
                 hq:    { width: 1920, quality: 100 }
 
-        news:
-            providers:
-                - sonata.media.provider.youtube
-                - sonata.media.provider.image
-
-            formats:
-                small: { width: 150 , quality: 95}
-                big:   { width: 500 , quality: 90, constraint: false}
+#        news:
+#            providers:
+#                - sonata.media.provider.youtube
+#                - sonata.media.provider.image
+#
+#            formats:
+#                small: { width: 150 , quality: 95}
+#                big:   { width: 500 , quality: 90, constraint: false}
 
     cdn:
         server:

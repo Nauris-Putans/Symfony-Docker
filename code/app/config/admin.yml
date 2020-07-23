@@ -11,3 +11,9 @@ services:
     tags:
       - { name: sonata.admin, manager_type: orm, label: Blog post }
 
+  admin.image:
+    class: Yoda\EventBundle\Admin\ImageAdmin
+    arguments: [~, Yoda\EventBundle\Entity\Image, ~]
+    tags:
+      - { name: sonata.admin, manager_type: orm, label: Image post }
+

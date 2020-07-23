@@ -4,14 +4,4 @@ parameters:
 #    parameter_name: value
 
 #services:
-#  acme.aws_s3.client:
-#    class: Aws\S3\S3Client
-#    factory: [Aws\S3\S3Client, 'factory']
-#    arguments:
-#      -
-#        version: "%s3_version%"
-#        region: "%s3_region%"
-#        credentials:
-#          key: "%s3_access_key%"
-#          secret: "%s3_secret_key%"
 
