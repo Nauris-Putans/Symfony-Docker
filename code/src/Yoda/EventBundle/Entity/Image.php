@@ -6,8 +6,10 @@ use DateTime;
 use Decimal\Decimal;
 use Doctrine\ORM\Mapping as ORM;
 use Exception;
-use Symfony\Component\HttpFoundation\File\UploadedFile;
-use Acme\DemoBundle\Services;
+use Gaufrette\Filesystem;
+use Gaufrette\Adapter\AwsS3;
+use Aws\S3\S3Client;
+use Symfony\Component\HttpFoundation\File\UploadedFile;;
 
 
 /**
@@ -84,15 +86,14 @@ class Image
 //    }
 
 
-
-
-
     /**
      * Manages the copying of the file to the relevant place on the server
      * @param $basepath
+     * @return bool|void
      */
     public function upload($basepath)
     {
+
         // the file property can be empty if the field is not required
         if (null === $this->getFile()) {
             return;
@@ -102,33 +103,34 @@ class Image
             return;
         }
 
-//
-//        $s3 = $this->container->get('s3');
-//        $s3->put('your/s3/path/photo.jpg', file_get_contents($uploadedFile));
-//
-//        $storage = $this->getContainer()->get('demo_storage');
-//
-//// Upload a file with the content "content text" and the MIME-Type text/plain
-//        $storage->upload('test.txt', 'content text', ['contentType' => 'text/plain']);
-//
-//// Upload a local existing File and let the service automatically detect the mime type.
-//        $storage->uploadFile('file path' . 'demo.pdf');
-
-
         // we use the original file name here but you should
         // sanitize it at least to avoid any security issues
-
-        // move takes the target directory and target filename as params
         $this->file->move($this->getUploadRootDir($basepath), $this->file->getClientOriginalName());
 
         // set the path property to the filename where you've saved the file
         $this->filename = $this->getFile()->getClientOriginalName();
+
+
+        // set the path property to the filename where you've saved the file
 
         $this->size = $this->getFile()->getClientSize();
 
         $this->mimeType = $this->getFile()->getClientMimeType();
 
         $this->path = $this->getFile()->getPathname();
+
+        $s3Client = S3Client::factory(array(
+                'use_path_style_endpoint' => true,
+                'endpoint' => "http://s3server:8000",
+                'version' => "2006-03-01",
+                'region' => "us-east-1",
+                "key" => "accessKey1",
+                "secret" => "verySecretKey1",));
+
+        $adapter  = new AwsS3($s3Client,"media", array('create' => false, 'directory' => 'photos', 'acl' => 'public',), $detectContentType = true);
+        $filesystem = new Filesystem($adapter);
+
+        $filesystem->write("uploads/images", true);
 
         // clean up the file property as you won't need it anymore
         $this->setFile(null);

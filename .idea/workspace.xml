@@ -11,34 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c21c9616-3017-45e4-80f2-4c447756e7b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Admin/ImageAdmin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/assets/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Resources/config/Doctrine/Image.orm.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/nputans0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/nputans0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/app/config/admin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/config/admin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/config/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/app/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/code/app/config/services.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Entity/BlogPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Entity/BlogPost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Entity/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Entity/ItemsAdd.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Entity/ItemsAdd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/#ib_16384_0.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#ib_16384_0.dblwr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/#ib_16384_1.dblwr" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/#ib_16384_1.dblwr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Entity/Image.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Yoda/EventBundle/Entity/Image.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/db/ON.index" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ON.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ib_buffer_pool" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/mysql.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/undo_001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/db/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/data/db/undo_002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/s3metadata/rootDB/000416.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/s3metadata/rootDB/000418.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/s3metadata/rootDB/000421.ldb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/s3metadata/rootDB/000422.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/s3metadata/rootDB/000438.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/s3metadata/rootDB/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/data/s3metadata/rootDB/CURRENT" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/s3metadata/rootDB/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/data/s3metadata/rootDB/LOG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/s3metadata/rootDB/LOG.old" beforeDir="false" afterPath="$PROJECT_DIR$/data/s3metadata/rootDB/LOG.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/s3metadata/rootDB/MANIFEST-000420" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/s3metadata/rootDB/MANIFEST-000436" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +127,9 @@
       <workItem from="1595251600324" duration="537000" />
       <workItem from="1595311292373" duration="22446000" />
       <workItem from="1595396896968" duration="24006000" />
-      <workItem from="1595483111325" duration="10128000" />
+      <workItem from="1595483111325" duration="11453000" />
+      <workItem from="1595515624562" duration="360000" />
+      <workItem from="1595569378827" duration="10056000" />
     </task>
     <servers />
   </component>
@@ -233,12 +215,12 @@
     </state>
     <state x="463" y="102" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1593421635661" />
     <state x="1189" y="276" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1595314041138" />
-    <state x="804" y="308" width="1118" height="923" key="find.popup" timestamp="1595407149065">
+    <state x="804" y="308" width="1118" height="923" key="find.popup" timestamp="1595569980980">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="506" y="187" width="583" height="566" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1593518929452" />
     <state x="603" y="229" width="838" height="685" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594976301398" />
-    <state x="804" y="308" width="1118" height="923" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1595407149065" />
+    <state x="804" y="308" width="1118" height="923" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1595569980980" />
     <state x="1047" y="368" key="refactoring.ChangeSignatureDialog" timestamp="1595487166091">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
